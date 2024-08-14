@@ -631,7 +631,7 @@
 
 /* Animation effects */
 .pulse {
-    animation: pulse 3s ease-in-out infinite;
+    animation: pulse 1s ease-in-out infinite;
 }
 
 @keyframes pulse {
@@ -652,13 +652,13 @@
 }
 
 .glow {
-    animation: glow 3s ease-in-out infinite;
+    animation: glow 1s ease-in-out infinite;
 }
 
 @keyframes glow {
     0% {
         opacity: 0;
-        transform: scale(0.5);
+        transform: scale(1);
     }
 
     50% {
@@ -668,13 +668,13 @@
 
     100% {
         opacity: 0;
-        transform: scale(0.5);
+        transform: scale(1);
     }
 }
 
 /* Apply animations to buttons */
 .floating-btns a.btn-phone {
-    animation: pulse 3s ease-in-out infinite;
+    animation: pulse 1s ease-in-out infinite;
 }
 
 .floating-btns a.btn-phone::before {
@@ -687,7 +687,7 @@
     border-radius: 50%;
     background-color: #259543;
     opacity: 0;
-    animation: glow 3s ease-in-out infinite;
+    animation: glow 1s ease-in-out infinite;
 }
 
 .btn.btn-phone.btn-circle {
